@@ -24,10 +24,9 @@ impl Background {
         }
     }
     /* 
-    //idk what is happening here
-    pub fn update(&mut self, amount: f32, seconds: f32, max_right: f32) {
+    //We dont move the background so we dont need update function
+    pub fn update() {
     
-        self.pos.x = nalgebra::clamp(self.pos.x, 0.0, max_right);
     }*/
     
     pub fn draw(&self, canvas: &mut graphics::Canvas, assets: &Assets) {  
